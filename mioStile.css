@@ -1,0 +1,58 @@
+﻿body
+{
+	font-size: 12pt;
+	font-family: Arial;
+}
+.SfondoTabella
+{
+	background-color: #33ffff; /* solo per un esempio*/
+}
+.TblRPari
+{
+	background-color:Yellow;
+	text-align: center;
+}
+.TblRDispari
+{
+	background-color: Silver;
+	text-align: center;
+}
+
+/*stili per il form di ricerca*/
+
+legend#titolo
+{
+    color:Black;
+}
+form#ricerca
+{
+	width: 350px;
+	height: 250px;
+	margin: 0;
+	padding: 15px15px10px;
+	background: #D3FFB6;
+}
+
+input, textarea, button
+{
+	border: 0px solid;
+	color: #475078;
+	font: 12px Arial,sans-serif;
+}
+
+input#Submit1
+{
+	float: left;
+	width: 130px; /* dimensioni immagine = 130x30 */
+	height: 30px;
+	line-height: 25px;
+	display: inline;
+	margin-left: 95px;
+	padding: 1px 0 4px;
+	background: #D3FFB6 url(submitBk.png) no-repeat;
+	color: #000;
+	cursor: pointer;
+}
+
+
+/* fine stili form ricerca */
